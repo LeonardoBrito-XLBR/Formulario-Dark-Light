@@ -5,7 +5,7 @@
 
     /* VARIAVEIS DE COLORES PARA SER USADAS */
 
-    /* LEMBRE-SE DE TROCAR DEPOIS DE ESTA SALVO*/
+    /* LEMBRE-SE DE TROCAR AS CORES DEPOIS DE ESTA SALVO !!!!*/
     --color-light-50: white;
 
     --color-dark-50: #797974; 
@@ -74,6 +74,11 @@
 #mode_icon{
     cursor: pointer;
     font-size: 20px;
+}
+
+#social_media {
+    display: flex;
+    justify-content: space-around;
 }
 
 #social_media img{
