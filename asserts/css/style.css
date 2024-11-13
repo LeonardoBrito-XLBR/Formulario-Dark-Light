@@ -81,7 +81,57 @@
     justify-content: space-around;
 }
 
+
+
 #social_media img{
     width: 35px;
 
 }
+
+/* FAZER UMA TRANSICAO SUAVE (DIVERTIDAMENTE)*/
+#social_media img:hover{
+    transform: scale(1.2);
+
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.input_box label {
+    font-size: 14px;
+    color: var(--color-dark-50);
+
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid var(--color-purple-50) ;
+}
+
+.input-field i {
+    font-size: 18px;
+    color: var(--color-dark-900);
+}
+
+.input-field input {
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 18px;
+    padding: 0px 5px;
+
+}
+
+.input-field input:focus{
+    outline: none;
+}
+
