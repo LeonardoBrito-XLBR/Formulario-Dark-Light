@@ -152,6 +152,7 @@
     cursor: pointer;
 }
 
+/* APLICAR SUAVIDADE NO BOTAO*/
 #login_button:hover{
     transform: scale(1.05);
 }
