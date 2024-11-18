@@ -141,6 +141,10 @@
     color: var(--color-purple-50);
 }
 
+#forgot_password a:hover{
+    color: var(--color-purple-50);
+}
+
 #login_button{
     border: none;
     background: var(--color-gradient);
@@ -155,4 +159,28 @@
 /* APLICAR SUAVIDADE NO BOTAO*/
 #login_button:hover{
     transform: scale(1.05);
+}
+
+/*Estilos do Modo Dark*/
+
+.dark#login_from{
+    color: var(--color-light-50);
+    background-color: var(--color-dark-100);
+    animation: light-to-dark-background 0.3s ease-in-out;
+}
+
+.dark#login_from .input-field input,
+.dark#login_from .input-field i {
+    color: var(--color-light-50);
+} 
+
+@keyframes dark-to-light-background {
+    0%{
+        background-color:var(--color-dark-100);
+    }
+
+    100.0%{
+        background-color:var(--color-light-50);
+    }
+
 }
